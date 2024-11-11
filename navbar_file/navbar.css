@@ -156,14 +156,27 @@
   .lg3 {
     display: inline-block;
     background: none;
+    mix-blend-mode: multiply;
     padding: 0;
     margin: 0;
+    height: 45px;
+    width: auto;
+    background: none;
+  }
+  .home {
+    display: inline-block;
+    background: none;
     mix-blend-mode: multiply;
+    padding: 0;
+    margin: 0;
+    height: 35px;
+    width: auto;
+    background: none;
+    margin-left: 50px;
   }
 
   .auth-links {
     display: flex;
-    gap: 16px;
     a {
       text-decoration: none;
     }
@@ -175,6 +188,7 @@
     align-items: center;
     justify-content: center;
     padding: 8px 12px;
+    margin-right: 8px;
     border-radius: 4px;
     cursor: pointer;
     width: 100px;
@@ -196,7 +210,7 @@
     background-color: #333;
     color: #ffffff;
     img.acc-icon {
-      width: 16px;
+      width: 18px;
       padding: 0;
       margin-right: 4px;
       background: none;
@@ -243,4 +257,5 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
