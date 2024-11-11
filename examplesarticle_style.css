@@ -5,19 +5,17 @@
 }
 .content1{
     background-color: white;
+    width: 75%;
     height: 1000vh;
-    margin-left: 150px;
-    margin-right: 150px;
+    /* border-left: 1px solid black;
+    border-right: 1px solid black; */
+    margin: 0px auto;
 }
 .content2{
-    margin-left: 75px;
-    margin-right: 75px;
-    border-left: 1.5px;
-    border-right: 1.5px;
-    border-top: 0px;
-    border-bottom: 0px;
-    border-style: solid;
-    border-color: black;
+    width: 65vw;
+    margin: 0px auto;
+    border-left: 1px solid black ;
+    border-right: 1px solid black;
 }
 .timedate{
     direction: rtl;
