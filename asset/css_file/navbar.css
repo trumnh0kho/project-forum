@@ -154,7 +154,7 @@
     }
   }
 
-  .lg3 {
+  img.lg3 {
     display: inline-block;
     background: none;
     mix-blend-mode: multiply;
@@ -164,7 +164,7 @@
     width: auto;
     background: none;
   }
-  .home {
+  img.home {
     display: inline-block;
     background: none;
     mix-blend-mode: multiply;
