@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    /* background-color: rgb(227,227,227); */
+}
+.main{
+    width: 65%;
+    margin: 0px auto;
+    padding: 25px;
+    background: white;
+    border-left: 1px solid black ;
+    border-right: 1px solid black;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.sect{
+    width: 85%;
+    max-width: 85%;
+    border-bottom: 1px solid rgb(215, 215, 215);
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.timedate{
+    margin: 5px 0px;
+    direction: rtl;
+}
+.tieude{
+    margin: 5px 0px;
+}
+.noidung{
+    margin: 5px 0px; 
+}
+.baidang-anh{
+    margin: 5px 0px; 
+    max-width: 100%;
+}
+.chuthich{
+    margin-bottom: 5px;
+    font-size: 12px;
+    direction: rtl;
+}
+.tacgia{
+    direction: rtl;
+}
+.cdlq{
+    width: 85%;
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding: 20px;
+    border-bottom: 1px solid rgb(215, 215, 215);
+}
+/* .cdlq-tieude{
+} */
+.cdlq-box{
+    box-sizing: border-box;
+    height: 190px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+}
+.cdlq-box-anh{
+    border-radius: 12px;
+    float: left;
+    height: 100%;
+    margin: auto;
+    width: auto;
+    object-fit: contain;
+}
+.cdlq-box-noidung{
+    margin: auto 0px auto 10px;
+}
+.xemnhieu{
+    width: 85%;
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding: 20px;
+}
+/* .xemnhieu-tieude{
+} */
+.xemnhieu-cot{
+    display: flex;
+    flex-direction: column;
+}
+.xemnhieu-cot > div:not(:last-child){
+    border-bottom: 1px solid black;
+}
+.xemnhieu-cot-hang{
+    display: flex;
+}
+.xemnhieu-cot-hang > div:not(:last-child){
+    border-right: 1px solid black;
+}
+.xemnhieu-cot-hang-noidung{
+    flex: 1 ;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.xemnhieu-cot-hang-noidung img{
+    height: 100%;
+}
+.xemnhieu-cot-hang-noidung h2{
+    flex: 1;
+    text-align: center;
+    font-size: 20px;
+}
