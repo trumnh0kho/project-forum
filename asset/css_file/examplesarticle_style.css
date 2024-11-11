@@ -1,13 +1,6 @@
-<<<<<<< HEAD:examplesarticle_style.css
 body{
     margin: 0px;
     /* background-color: rgb(227,227,227); */
-=======
-.background{
-    width: 100%;
-    height: 100%;
-    background-color: rgb(227, 227, 227);
->>>>>>> 12ae7a14460da2ae2496bb4f53dd6d41501c8203:asset/css_file/examplesarticle_style.css
 }
 .main{
     width: 65%;
