@@ -1,0 +1,90 @@
+.main{
+    width: 35%;
+    margin: 100px auto;
+    padding: 30px;
+    border: 1px solid rgb(128,128,128);
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.tieude{
+    font-size: 80px;
+    font-weight: 700;
+    margin: -30px 0px 0px 0px;
+    color: rgb(128,128,128);
+}
+.login{
+    direction: rtl;
+    color: rgb(128,128,128);
+    margin: 10px 0px 20px 0px;
+}
+.dangnhapvoifacebookgoogle{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+.iwanttodoitfast{
+    color: rgb(128,128,128);
+}
+.orr{
+    color: rgb(128,128,128);
+}
+.gg-fb{
+    display: flex;
+}
+.gg-fb-bu{
+    height: 50px;
+    flex: 1;
+    box-sizing: border-box;
+    background-color: rgb(128,188,255);
+    border-radius: 25px;
+    margin: 10px;
+    display: flex;
+    cursor: pointer;
+}
+.ten{
+    flex: 1;
+    margin: auto;
+}
+.logo{
+    margin: auto 20px;
+    width: 30px;
+    height: 30px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    width: 100%;
+    height: 40px;
+    padding: 0px 10px;
+    border: 1px solid rgb(128,128,128);
+    border-radius: 10px;
+    margin: 10px auto;
+    font-size: 30px;
+}
+.registerr{
+    width: 50%;
+    height: 40px;
+    box-sizing: border-box;
+    border: 0px;
+    border-radius: 10px;
+    background-color: rgb(128,128,128);
+    color: white;
+    margin: 10px auto;
+    text-align: center;
+    cursor: pointer;
+}
+.ticks{
+    display: flex;
+}
+.tick{
+    text-align: center  ;
+    flex: 1;
+}
+.tick-link{
+    color: rgb(128,128,128);
+}
+.bu{
+    height: 200px;
+}
