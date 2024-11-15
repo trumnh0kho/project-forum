@@ -20,6 +20,8 @@ body {
     text-align: center;
     border-radius: 20px;
     border: 1px solid rgb(134, 132, 132);
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 h1 {
     margin-left: 15px;
@@ -27,20 +29,7 @@ h1 {
     margin-top: 7px;
     margin-bottom: 15px;
 }
-p {
-    margin: 10px 0;
-    color: grey;
-}
-.fast-login-buttons button {
-    margin: 5px;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #92c1f4; color: white; width: 115px; text-align: left;
-}
-.fast-login-buttons .google { margin-right: 10px;}
-.fast-login-buttons .facebook { margin-left: 10px;}
+
 .form {
     display: flex;
     flex-direction: column;
@@ -48,24 +37,14 @@ p {
     margin-top: 15px;
     margin-bottom: 25px;
 }
-.form input[type="email"],
-.form input[type="password"] {
+.form input[type="email"] {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 269px;
     margin-left: 45px;
 }
-.form label {
-    display: flex;
-    align-items: center;
-    font-size: 13px;
-    color: grey;
-    margin-left: 45px;
-}
-.form label input {
-    margin-right: 10px;
-}
+
 button {
     background-color: #555;
     color: white;
@@ -75,24 +54,22 @@ button {
     width: 115px;
     font-size: 12px;
     background-color: #888;
-    padding: 10px;
-    margin-bottom: 80px;
+    margin-bottom: 262px;
+    padding: 10px 10px;
 }
 
-.forgot-password {
+.resend {
     margin-right: 25px;
+    width: 120px;
 }
-.submit {
+.ok {
+    width: 120px;   
     margin-left: 25px;
 }
 
 h5 {
     color: rgb(144, 139, 139);
-    text-align: right;
-    margin-top: 10px;
-    margin-bottom: 40px;
-}
-h3 {
-    font-size: 13px;
-    color: rgb(172, 172, 172);
+    text-align: center;
+    font-size: 12px;
+    margin: 10px;
 }
