@@ -1,79 +1,101 @@
-.main{
-    width: 35%;
-    margin: 100px auto;
-    padding: 30px;
-    border: 1px solid rgb(128,128,128);
-    border-radius: 20px;
+* {
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
-.tieude{
-    font-size: 80px;
-    font-weight: 700;
-    margin: -30px 0px 0px 0px;
-    color: rgb(128,128,128);
-}
-.login{
-    direction: rtl;
-    color: rgb(128,128,128);
-    margin: 10px 0px 20px 0px;
-}
-.dangnhapvoifacebookgoogle{
-    width: 100%;
-    text-align: center;
-    margin: 20px 0px 0px 0px;
-}
-.iwanttodoitfast{
-    color: rgb(128,128,128);
-}
-.orr{
-    color: rgb(128,128,128);
-}
-.gg-fb{
-    display: flex;
-}
-.gg-fb-bu{
-    height: 50px;
-    flex: 1;
-    box-sizing: border-box;
-    background-color: rgb(128,188,255);
-    border-radius: 25px;
-    margin: 10px;
-    display: flex;
-    cursor: pointer;
-}
-.ten{
-    flex: 1;
-    margin: auto;
-}
-.logo{
-    margin: auto 20px;
-    width: 30px;
-    height: 30px;
-}
-.form{
+body {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #f0f0f0;
 }
-.input{
-    width: 100%;
-    height: 40px;
-    padding: 0px 10px;
-    border: 1px solid rgb(128,128,128);
-    border-radius: 10px;
-    margin: 10px auto;
-    font-size: 30px;
-}
-.registerr{
-    width: 50%;
-    height: 40px;
-    box-sizing: border-box;
-    border: 0px;
-    border-radius: 10px;
-    background-color: rgb(128,128,128);
-    color: white;
-    margin: 10px auto;
+
+.container {
+    margin: 100px 0px;
+    width: 400px;
+    background-color: white;
+    padding: 20px;
     text-align: center;
+    border-radius: 20px;
+    border: 1px solid rgb(134, 132, 132);
+}
+h1 {
+    margin-left: 15px;
+    font-size: 30px;
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+p {
+    margin: 10px 0;
+    color: grey;
+}
+.fast-login-buttons button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
+    background-color: #92c1f4; color: white; width: 115px; text-align: left;
+}
+.fast-login-buttons .google { margin-right: 10px;}
+.fast-login-buttons .facebook { margin-left: 10px;}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.form input[type="email"],
+.form input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 269px;
+    margin-left: 45px;
+}
+.form label {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: grey;
+    margin-left: 45px;
+}
+.form label input {
+    margin-right: 10px;
+}
+button {
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 115px;
+    font-size: 12px;
+    background-color: #888;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.forgot-password {
+    margin-right: 25px;
+}
+.submit {
+    margin-left: 25px;
+}
+
+h5 {
+    color: rgb(144, 139, 139);
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+h3 {
+    font-size: 13px;
+    color: rgb(172, 172, 172);
 }
 .ticks{
     display: flex;
@@ -84,7 +106,4 @@
 }
 .tick-link{
     color: rgb(128,128,128);
-}
-.bu{
-    height: 200px;
 }

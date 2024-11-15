@@ -1,55 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
     <link rel="stylesheet" href="asset/css_file/register.css">
-    <link rel="stylesheet" href="asset/css_file/footer.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body{
-            font-family: 'Open Sans', sans-serif;
-        }
-    </style>
-    <script src="asset/jquery3.7.1.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    ,<script src="asset/jquery3.7.1.js"></script>
 </head>
 <body>
     <script src="getnav.js"></script>
     <div id="nav-placeholder"></div>
-    <div class="main">
-        <div class="tieude">
-            Register
+    <div class="container">
+        <h1 style="text-align: left; color: gray;">Register</h1>
+        <h5>Already have an account?<a href="giaodienlogin.html" style="color: rgb(174, 174, 174); text-decoration: none;"> Login!!</a></h5>
+        <h3>I WANT TO DO IT FAST</h3>
+
+        <div class="fast-login-buttons">
+            <button class="google">Google <img src="./google.png" style="width: 10px; margin-left: 30px;"></button>
+            <button class="facebook">Facebook <img src="./facebook.png" style="width: 12px; margin-left: 20px;"></button>
         </div>
-        <div class="login">
-            Already have an account?
-            <span> <a href="giaodienlogin.html">Login</a> </span>
-        </div>
-        <div class="dangnhapvoifacebookgoogle">
-            <div class="iwanttodoitfast">
-                I WANT TO DO IT FAST
-            </div>
-            <div class="gg-fb">
-                <div class="gg-fb-bu">
-                    <div class="ten">Google</div>
-                    <ion-icon class="logo" name="logo-google"></ion-icon>
-                </div>
-                <div class="gg-fb-bu">
-                    <div class="ten">Facebook</div>
-                    <ion-icon class="logo" name="logo-facebook"></ion-icon>
-                </div>
-            </div>
-            <div class="orr">OR!</div>
-        </div>
-        <div class="form">
-            <input type="text" placeholder="Email" class="input">
-            <input type="text" placeholder="Password" class="input">
-            <input type="text" placeholder="Username" class="input">
-            <input type="text" placeholder="Name" class="input">
-            <button class="registerr">Register!</button>
-        </div>
+        
+        <p>OR!</p>
+
+        <form class="form">
+            <input type="email" placeholder="email">
+            <input type="password" placeholder="password">
+            <input type="password" placeholder="username">
+            <input type="password" placeholder="name">
+        </form>
+        <button type="submit">Register!</button>
         <div class="ticks">
             <div class="tick">
                 <a class="tick-link" href="">Term of Service</a>
@@ -61,7 +38,6 @@
             </div>
         </div>
     </div>
-    <div class="bu"></div>
     <div id="footer-placeholder"></div>
 </body>
 </html>
