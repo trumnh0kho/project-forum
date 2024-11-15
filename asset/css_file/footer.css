@@ -3,6 +3,7 @@ footer {
     padding: 20px;
     font-family: Arial, sans-serif;
     position: static;
+    width: 100vw;
   }
   
   .footer-container {
