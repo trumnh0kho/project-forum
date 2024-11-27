@@ -1,0 +1,47 @@
+.trendingcontent {
+  margin: 50px 50px 50px auto;
+  width: 350px;
+  padding: 30px;
+  border: 1.5px solid rgb(83, 83, 83);
+  border-radius: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.tredingcontent-tieude {
+  font-size: 25px;
+}
+.tredingcontent-baiviet {
+  display: flex;
+  margin: 20px 0px;
+}
+.avt {
+  margin: auto 20px auto 0px;
+  max-width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-sizing: border-box;
+  flex: 1;
+  /* align-items: center; */
+}
+.tredingcontent-baiviet-noidung {
+  flex: 1;
+}
+.tredingcontent-baiviet-tieude {
+  text-decoration: none;
+  color: rgb(37, 43, 254);
+}
+.tredingcontent-baiviet-tacgiadate {
+  display: flex;
+  color: rgb(101, 101, 101);
+}
+.tredingcontent-baiviet-tacgiadate .tacgia {
+  text-align: center;
+  /* align-items: center; */
+  padding: 0px 10px 0px 0px;
+  margin: 0px 10px 0px 0px;
+  border-right: 1px solid rgb(101, 101, 101);
+}
+.replies {
+  color: rgb(101, 101, 101);
+}
