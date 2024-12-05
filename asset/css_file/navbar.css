@@ -154,7 +154,7 @@
     }
   }
 
-  img.lg3 {
+  .lg3 {
     display: inline-block;
     background: none;
     mix-blend-mode: multiply;
@@ -164,7 +164,7 @@
     width: auto;
     background: none;
   }
-  img.home {
+  .home {
     display: inline-block;
     background: none;
     mix-blend-mode: multiply;
@@ -192,7 +192,7 @@
     margin-right: 8px;
     border-radius: 4px;
     cursor: pointer;
-    width: 105px;
+    width: 100px;
   }
 
   .login {

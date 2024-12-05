@@ -1,155 +1,111 @@
-body{
-    margin: 0px;
-    /* background-color: rgb(227,227,227); */
+.background{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(227, 227, 227);
 }
-.main{
-    width: 65%;
-    margin: 0px auto 50px auto ;
-    padding: 25px;
-    background: white;
+.content1{
+    background-color: white;
+    width: 75%;
+    height: 1000vh;
+    /* border-left: 1px solid black;
+    border-right: 1px solid black; */
+    margin: 0px auto;
+}
+.content2{
+    width: 64.5vw;
+    margin: 0px auto;
     border-left: 1px solid black ;
     border-right: 1px solid black;
-    box-sizing: border-box;
-    max-width: 100%;
-    a {
-        text-decoration: none;
-        color: black;
-        &:hover {
-            text-decoration: underline;
-        }
-    }
-}
-.sect{
-    width: 85%;
-    max-width: 85%;
-    border-bottom: 1px solid rgb(215, 215, 215);
-    margin-left: auto;
-    margin-right: auto;
-    box-sizing: border-box;
-    padding: 20px;
 }
 .timedate{
-    margin: 5px 0px;
     direction: rtl;
-}
-.tieude{
-    margin: 5px 0px;
-}
-.noidung{
-    margin: 5px 0px; 
-}
-.baidang-anh{
-    margin: 5px 0px; 
-    max-width: 100%;
+    margin: 5px 30px;
 }
 .chuthich{
-    margin-bottom: 5px;
-    font-size: 12px;
     direction: rtl;
+    margin: 5px 30px;
+    font-size: 12px;
 }
 .tacgia{
     direction: rtl;
+    margin: 5px 30px;
+    font-weight: 1000;
+}
+.tieude{
+    margin: 10px 30px;
+}
+.vanban{
+    margin: 10px 30px;
+}
+.anh{
+    margin: 5px 30px;
+}
+.imgbu{
+    max-width: 100%;
+    min-width: 100%;
+    display: block;
+}
+.chudelienquan{
+    margin: 20px 30px;
 }
 .cdlq{
-    width: 85%;
-    max-width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-    box-sizing: border-box;
-    padding: 20px;
-    border-bottom: 1px solid rgb(215, 215, 215);
+    margin: 5px;
 }
-/* .cdlq-tieude{
-} */
-.cdlq-box{
-    box-sizing: border-box;
-    height: 190px;
-    margin: 10px auto;
-    padding: 10px;
-    border: 1px solid rgb(200, 200, 200);
-    border-radius: 12px;
+.cdlqcontainer{
+    margin: 5px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
 }
-.cdlq-box-anh{
-    border-radius: 12px;
-    float: left;
-    height: 100%;
-    margin: auto;
-    width: auto;
-    object-fit: contain;
+.cdlqitem{
+    margin: 5px;
+    display: flex;
+    border: 1.5px solid #D9D9D9;
+    border-radius: 10px;
 }
-.cdlq-box-noidung{
-    margin: auto 0px auto 10px;
+.cdlqanh{
+    margin: 10px;
+}
+.cdlqanh img{
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.cdlqmota{
+    flex: 1;
+    margin: 10px;
 }
 .xemnhieu{
-    width: 85%;
-    max-width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-    box-sizing: border-box;
-    padding: 20px;
+    margin: 20px 30px;
 }
-
-/*slider*/
-.slide-body{
-    width: 85%;
-        max-width: 85%;
-        border-bottom: 1px solid rgb(215, 215, 215);
-        margin-left: auto;
-        margin-right: auto;
-        padding-bottom: 30px;
-        box-sizing: border-box;
-        
-    margin-top: 30px;
+.xemnhieu-tieude{
+    margin: 5;
 }
-.swiper {
-    width: 100%;
-    height: 100%;
-  }
-
-  .swiper-slide {
-    font-size: 18px;
-    background: #fff;
+.xemnhieu-container{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-    h3{
-        font-size: 14px;
-    }
-    
-  }
-
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .terms-grid {
-    img {
-        margin-top: 5px;
-        float: left;
-        height: 100px;
-        width: auto;
-        object-fit: contain;
-        margin-right: 20px;
-    }
+    flex-direction: column;
+}
+.xemnhieu-container > div:not(:last-child){
+    border-bottom: 1.5px solid black;
+}
+.xemnhieu-hang{
+    display: flex;
+}
+.xemnhieu-hang > div:not(:last-child){
+    border-right: 1.5px solid black;
+}
+.xemnhieu-item{
+    display: flex;
+    flex: 1;
+}
+.xemnhieu-item img{
+    max-height: 120px;
+    margin: 10px;
+}
+.xemnhieu-item h3{
+    margin: 10px;
+    flex: 1;
 }
 
-.card {
-    margin-bottom: 15px;
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid rgb(200, 200, 200);
-    border-radius: 8px;
-    img {
-        margin-top: 5px;
-        float: left;
-        height: 100px;
-        width: auto;
-        object-fit: contain;
-        margin-right: 20px;
-    }
-}
+
+
