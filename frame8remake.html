@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="asset/css_file/frame8remake.css" />
+    <link rel="stylesheet" href="asset/css_file/footer.css" />
+    <link rel="stylesheet" href="slider_file/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Open Sans", sans-serif;
+      }
+    </style>
+    <script src="asset/jquery3.7.1.js"></script>
+  </head>
+
+  <body>
+    <script src="getnav.js"></script>
+    <div id="nav-placeholder"></div>
+    <div class="main">
+      <div class="thongbao">
+        <h6>Forums <b>> Loa phường ></b></h6>
+        <h4>Thông báo</h4>
+
+        <div class="head">
+          <select class="dropdown">
+            <option value="">Prefix</option>
+            <option value="">usa</option>
+            <option value="">nigger</option>
+            <option value="">chu y</option>
+          </select>
+          <input
+            type="Thread tittle"
+            id="searchBar"
+            placeholder="Thread tittle"
+            onkeyup="filterCards()"
+          />
+          <div class="post-thread">
+            <div class="subpost-thread1">
+              <button><i class="fa-solid fa-pen-nib"></i>Post thread</button>
+            </div>
+            <div class="subpost-thread">
+              <button>Polls<i class="fa-solid fa-list"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="filler">
+            <img src="anh.jpg" style="width: 30px; margin-right: 7px" />
+            <span style="margin-right: 15px" class="card-title"></span>
+              abc(~~~~FILLER~~~~)</span
+            >
+            <div class="subcard">
+              <div >
+                <p style="margin: 0px 50px 5px 0px">
+                  <span>Replies:</span>
+                  <span style="font-size: 18px">74</span>
+                </p>
+                <p style="margin: 5px 50px 0px 0px">
+                  <span >Views:</span>
+                  <span style="font-size: 18px">137.2k</span>
+                </p>
+              </div>
+              <img src="anh.jpg" style="width: 30px; margin-right: 7px" />
+              <div >
+                <p style="font-size: 15px; margin: 8px 0px 0px 0px">
+                  Cập nhật tình hình...
+                </p>
+                <p style="margin: 8px 0px 8px 0px">
+                  <span style="font-size: 10px; margin-right: 10px"
+                    >Wednesday at 14:15</span
+                  >
+                  <span style="font-size: 12px; color: blue"class="card-title">
+                    <a href="#" style="text-decoration: none" 
+                      >Faker</a
+                    ></span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="filler">
+            <img src="anh.jpg" style="width: 30px; margin-right: 7px" />
+            <span style="margin-right: 15px" class="card-title"
+              >ctct (FILLER)</span
+            >
+            <button id="usa" class="card-title">usa</button>
+           <div class="subcard">
+              <div >
+                <p style="margin: 0px 50px 5px 0px">
+                  <span>Replies:</span>
+                  <span style="font-size: 18px">74</span>
+                </p>
+                <p style="margin: 5px 50px 0px 0px">
+                  <span >Views:</span>
+                  <span style="font-size: 18px">137.2k</span>
+                </p>
+              </div>
+              <img src="anh.jpg" style="width: 30px; margin-right: 7px" />
+              <div >
+                <p style="font-size: 15px; margin: 8px 0px 0px 0px">
+                  Cập nhật tình hình...
+                </p>
+                <p style="margin: 8px 0px 8px 0px">
+                  <span style="font-size: 10px; margin-right: 10px"
+                    >Wednesday at 14:15</span
+                  >
+                  <span style="font-size: 12px; color: blue"class="card-title">
+                    <a href="#" style="text-decoration: none" 
+                      >Faker</a
+                    ></span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="filler">
+            <img src="anh.jpg" style="width: 30px; margin-right: 7px" />
+            <span style="margin-right: 15px" class="card-title"
+              >diễn đàn & ctct (FILLER)</span
+            >
+            <button id="nigger" class="card-title">nigger</button>
+            <div class="subcard">
+              <div >
+                <p style="margin: 0px 50px 5px 0px">
+                  <span>Replies:</span>
+                  <span style="font-size: 18px">74</span>
+                </p>
+                <p style="margin: 5px 50px 0px 0px">
+                  <span >Views:</span>
+                  <span style="font-size: 18px">137.2k</span>
+                </p>
+              </div>
+              <img src="anh.jpg" style="width: 30px; margin-right: 7px" />
+              <div >
+                <p style="font-size: 15px; margin: 8px 0px 0px 0px">
+                  Cập nhật tình hình...
+                </p>
+                <p style="margin: 8px 0px 8px 0px">
+                  <span style="font-size: 10px; margin-right: 10px"
+                    >Wednesday at 14:15</span
+                  >
+                  <span style="font-size: 12px; color: blue"class="card-title">
+                    <a href="#" style="text-decoration: none" 
+                      >Faker</a
+                    ></span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="filler">
+            <img src="anh.jpg" style="width: 30px; margin-right: 7px" />
+            <span style="margin-right: 15px" class="card-title"
+              >nội quy chi tiết (FILLER)</span
+            >
+            <button id="chuy">chu y</button>
+            <div class="subcard">
+              <div >
+                <p style="margin: 0px 50px 5px 0px">
+                  <span>Replies:</span>
+                  <span style="font-size: 18px">74</span>
+                </p>
+                <p style="margin: 5px 50px 0px 0px">
+                  <span >Views:</span>
+                  <span style="font-size: 18px">137.2k</span>
+                </p>
+              </div>
+              <img src="anh.jpg" style="width: 30px; margin-right: 7px" />
+              <div >
+                <p style="font-size: 15px; margin: 8px 0px 0px 0px">
+                  Cập nhật tình hình...
+                </p>
+                <p style="margin: 8px 0px 8px 0px">
+                  <span style="font-size: 10px; margin-right: 10px"
+                    >Wednesday at 14:15</span
+                  >
+                  <span style="font-size: 12px; color: blue"class="card-title">
+                    <a href="#" style="text-decoration: none" 
+                      >Faker</a
+                    ></span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="filler">
+            <img src="anh.jpg" style="width: 30px; margin-right: 7px" />
+            <span style="margin-right: 15px" class="card-title"
+              >chi tiết diễn đàn (~~~~FILLER~~~~)</span
+            >
+            <div class="subcard">
+              <div >
+                <p style="margin: 0px 50px 5px 0px">
+                  <span>Replies:</span>
+                  <span style="font-size: 18px">74</span>
+                </p>
+                <p style="margin: 5px 50px 0px 0px">
+                  <span >Views:</span>
+                  <span style="font-size: 18px">137.2k</span>
+                </p>
+              </div>
+              <img src="anh.jpg" style="width: 30px; margin-right: 7px" />
+              <div >
+                <p style="font-size: 15px; margin: 8px 0px 0px 0px">
+                  Cập nhật tình hình...
+                </p>
+                <p style="margin: 8px 0px 8px 0px">
+                  <span style="font-size: 10px; margin-right: 10px"
+                    >Wednesday at 14:15</span
+                  >
+                  <span style="font-size: 12px; color: blue"class="card-title">
+                    <a href="#" style="text-decoration: none" 
+                      >Faker</a
+                    ></span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="trending">
+        <div class="trendingcontent">
+          <h1 class="tredingcontent-tieude">Trending content</h1>
+          <div class="tredingcontent-baiviet">
+            <img src="anh.png" alt="" class="avt" />
+            <div class="tredingcontent-baiviet-noidung">
+              <a href="" class="tredingcontent-baiviet-tieude">
+                Thread '[CLB Chứng khoán] Chia sẻ kinh nghiệm đầu tư chứng khoán
+                2024 - K9 is ez'
+              </a>
+              <div class="tredingcontent-baiviet-tacgiadate">
+                <div class="tacgia">trumnh0kho</div>
+                <div class="date">Dec 4, 2019</div>
+              </div>
+              <div class="replies">Replies: 599k</div>
+            </div>
+          </div>
+          <div class="tredingcontent-baiviet">
+            <img src="anh.png" alt="" class="avt" />
+            <div class="tredingcontent-baiviet-noidung">
+              <a href="" class="tredingcontent-baiviet-tieude">
+                Thread '[CLB Chứng khoán] Chia sẻ kinh nghiệm đầu tư chứng khoán
+                2024 - K9 is ez'
+              </a>
+              <div class="tredingcontent-baiviet-tacgiadate">
+                <div class="tacgia">trumnh0kho</div>
+                <div class="date">Dec 4, 2019</div>
+              </div>
+              <div class="replies">Replies: 599k</div>
+            </div>
+          </div>
+          <div class="tredingcontent-baiviet">
+            <img src="anh.png" alt="" class="avt" />
+            <div class="tredingcontent-baiviet-noidung">
+              <a href="" class="tredingcontent-baiviet-tieude">
+                Thread '[CLB Chứng khoán] Chia sẻ kinh nghiệm đầu tư chứng khoán
+                2024 - K9 is ez'
+              </a>
+              <div class="tredingcontent-baiviet-tacgiadate">
+                <div class="tacgia">trumnh0kho</div>
+                <div class="date">Dec 4, 2019</div>
+              </div>
+              <div class="replies">Replies: 599k</div>
+            </div>
+          </div>
+          <div class="tredingcontent-baiviet">
+            <img src="anh.png" alt="" class="avt" />
+            <div class="tredingcontent-baiviet-noidung">
+              <a href="" class="tredingcontent-baiviet-tieude">
+                Thread '[CLB Chứng khoán] Chia sẻ kinh nghiệm đầu tư chứng khoán
+                2024 - K9 is ez'
+              </a>
+              <div class="tredingcontent-baiviet-tacgiadate">
+                <div class="tacgia">trumnh0kho</div>
+                <div class="date">Dec 4, 2019</div>
+              </div>
+              <div class="replies">Replies: 599k</div>
+            </div>
+          </div>
+          <div class="tredingcontent-baiviet">
+            <img src="anh.png" alt="" class="avt" />
+            <div class="tredingcontent-baiviet-noidung">
+              <a href="" class="tredingcontent-baiviet-tieude">
+                Thread '[CLB Chứng khoán] Chia sẻ kinh nghiệm đầu tư chứng khoán
+                2024 - K9 is ez'
+              </a>
+              <div class="tredingcontent-baiviet-tacgiadate">
+                <div class="tacgia">trumnh0kho</div>
+                <div class="date">Dec 4, 2019</div>
+              </div>
+              <div class="replies">Replies: 599k</div>
+            </div>
+          </div>
+        </div>
+        <div class="thread-statistics">
+          <h1 class="tredingcontent-tieude">Thread statistics</h1>
+          <h4>Created:</h4>
+          <div class="views">
+            <a href="#">sythanh3</a>
+            <h5>jun 25 2023</h5>
+          </div>
+          <h4>Last reply from:</h4>
+          <div class="views">
+            <a href="#">Te_Thien_Dai_thanh</a>
+            <h5>Today at: 6:69pm</h5>
+          </div>
+          <div class="views">
+            <h4>Replies:</h4>
+            <h5 class="thread-views">1,329</h5>
+          </div>
+          <div class="views">
+            <h4>Views:</h4>
+            <h5 class="thread-views">132,493</h5>
+          </div>
+        </div>
+        <div class="thread-statistics">
+          <h1 class="tredingcontent-tieude">Share this page</h1>
+          <div class="icon-sect">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="asset/js_file/frame8remake/frame8remake.js"></script>
+  </body>
+</html>

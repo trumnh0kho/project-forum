@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+.thongbao {
+  position: relative;
+  left: 300px;
+  height: 1350px;
+  width: 800px;
+  border: 1px solid rgb(134, 132, 132);
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.mid {
+  display: flex;
+  flex-direction: column;
+}
+h6 {
+  margin-top: 15px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+h4 {
+  margin-top: 0px;
+  margin-bottom: 13px;
+}
+.dropdown {
+  padding: 10px;
+  padding-right: 20px;
+  font-size: 14px;
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color: white;
+  margin-right: 3px;
+}
+select {
+  direction: rtl;
+  border-left: 10px solid transparent;
+}
+input {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color: white;
+  font-size: 14px;
+  /* padding-right: 100px; */
+  margin-right: 20px;
+  width: 450px;
+}
+.filler {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid blue;
+  border-radius: 10px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-top: 10px;
+}
+p {
+  font-size: 13px;
+}
+.post-thread {
+  display: flex;
+  padding: 0px 5px 0px 5px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  align-items: center;
+  button {
+    background-color: white;
+    border: none;
+  }
+}
+.subpost-thread1 {
+  display: flex;
+  max-height: 100%;
+  height: 100%;
+  border-right: 1px solid black;
+  i {
+    margin-right: 5px;
+  }
+}
+.subpost-thread {
+  i {
+    margin-left: 5px;
+  }
+}
+#usa {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  padding: 7px;
+  margin-right: 40px;
+}
+#nigger {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  padding: 7px;
+  margin-right: 25px;
+}
+#chuy {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  padding: 7px;
+  margin-right: 30px;
+}

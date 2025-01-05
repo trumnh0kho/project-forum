@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="asset/css_file/posting.css" />
+    <link rel="stylesheet" href="asset/css_file/footer.css" />
+    <link rel="stylesheet" href="slider_file/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Open Sans", sans-serif;
+      }
+    </style>
+    <script src="asset/jquery3.7.1.js"></script>
+  </head>
+
+  <body>
+    <script src="getnav.js"></script>
+    <div id="nav-placeholder"></div>
+    <div class="main">
+      <div class="post">
+        <div class="post-direct">
+          <h5>
+            <a href="#" class="non-direct">Forum</a>
+            >
+            <a href="#" class="non-direct">Loa Phường</a>
+            >
+            <a href="#" class="current-direct">Thông Báo</a>
+          </h5>
+        </div>
+        <div class="post-header">
+          <h2>Post thread</h2>
+        </div>
+
+        <div class="reply-sect">
+          <div class="comment">
+            <div class="content">
+              <h3>Title</h3>
+              <h4>
+                Be specific and imagine you’re asking a question to another
+                person.
+              </h4>
+              
+                <input class="titleinput"
+                  placeholder="Hãy chia sẻ ý kiến của bạn"
+                ></input>
+              <h3>Tag</h3>
+              <h4>
+                Be specific and imagine you’re asking a question to another
+                person.
+              </h4>
+                <input class="titleinput"
+                  placeholder="Hãy chia sẻ ý kiến của bạn"
+                ></input>
+            </div>
+            <div class="switchtab">
+              <div class="tab">
+                <button
+                  class="tablinks"
+                  onclick="switchtabs(event, 'Discuss')"
+                  id="defaultOpen"
+                >
+                  Discuss
+                </button>
+                <button class="tablinks" onclick="switchtabs(event, 'Poll')">
+                  Poll
+                </button>
+              </div>
+              <div id="Discuss" class="tabcontent">
+                <div class="content">
+                  <div class="reply">
+                    <div class="icon-sect">
+                      <div class="icon">
+                        <i class="fa-solid fa-bold"></i>
+                        <i class="fa-solid fa-italic"></i>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                      </div>
+                      <div class="icon">
+                        <i class="fa-solid fa-list"></i>
+                        <i class="fa-solid fa-align-left"></i>
+                      </div>
+                      <div class="icon">
+                        <i class="fa-solid fa-link"></i>
+                        <i class="fa-regular fa-image"></i>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                      </div>
+                    </div>
+                    <textarea
+                      placeholder="Hãy chia sẻ ý kiến của bạn niggggga"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="endline"></div>
+                  <a href="#"><i class="fa-solid fa-pen-nib"></i>Trả lời</a>
+                </div>
+              </div>
+              <div id="Poll" class="tabcontent">
+                <div class="content">
+                  <div class="reply">
+                    <div class="icon-sect">
+                      <div class="icon">
+                        <i class="fa-solid fa-bold"></i>
+                        <i class="fa-solid fa-italic"></i>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                      </div>
+                      <div class="icon">
+                        <i class="fa-solid fa-list"></i>
+                        <i class="fa-solid fa-align-left"></i>
+                      </div>
+                      <div class="icon">
+                        <i class="fa-solid fa-link"></i>
+                        <i class="fa-regular fa-image"></i>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                      </div>
+                    </div>
+                    <textarea
+                      placeholder="Hãy chia sẻ ý kiến của bạn"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="endline"></div>
+                  <a href="#"><i class="fa-solid fa-pen-nib"></i>Trả lời</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="trending">
+        <div class="trendingcontent">
+          <h1 class="tredingcontent-tieude">Trending content</h1>
+          <div class="tredingcontent-baiviet">
+            <img src="anh.png" alt="" class="avt" />
+            <div class="tredingcontent-baiviet-noidung">
+              <a href="" class="tredingcontent-baiviet-tieude">
+                Thread '[CLB Chứng khoán] Chia sẻ kinh nghiệm đầu tư chứng khoán
+                2024 - K9 is ez'
+              </a>
+              <div class="tredingcontent-baiviet-tacgiadate">
+                <div class="tacgia">trumnh0kho</div>
+                <div class="date">Dec 4, 2019</div>
+              </div>
+              <div class="replies">Replies: 599k</div>
+            </div>
+          </div>
+          <div class="tredingcontent-baiviet">
+            <img src="anh.png" alt="" class="avt" />
+            <div class="tredingcontent-baiviet-noidung">
+              <a href="" class="tredingcontent-baiviet-tieude">
+                Thread '[CLB Chứng khoán] Chia sẻ kinh nghiệm đầu tư chứng khoán
+                2024 - K9 is ez'
+              </a>
+              <div class="tredingcontent-baiviet-tacgiadate">
+                <div class="tacgia">trumnh0kho</div>
+                <div class="date">Dec 4, 2019</div>
+              </div>
+              <div class="replies">Replies: 599k</div>
+            </div>
+          </div>
+          <div class="tredingcontent-baiviet">
+            <img src="anh.png" alt="" class="avt" />
+            <div class="tredingcontent-baiviet-noidung">
+              <a href="" class="tredingcontent-baiviet-tieude">
+                Thread '[CLB Chứng khoán] Chia sẻ kinh nghiệm đầu tư chứng khoán
+                2024 - K9 is ez'
+              </a>
+              <div class="tredingcontent-baiviet-tacgiadate">
+                <div class="tacgia">trumnh0kho</div>
+                <div class="date">Dec 4, 2019</div>
+              </div>
+              <div class="replies">Replies: 599k</div>
+            </div>
+          </div>
+          <div class="tredingcontent-baiviet">
+            <img src="anh.png" alt="" class="avt" />
+            <div class="tredingcontent-baiviet-noidung">
+              <a href="" class="tredingcontent-baiviet-tieude">
+                Thread '[CLB Chứng khoán] Chia sẻ kinh nghiệm đầu tư chứng khoán
+                2024 - K9 is ez'
+              </a>
+              <div class="tredingcontent-baiviet-tacgiadate">
+                <div class="tacgia">trumnh0kho</div>
+                <div class="date">Dec 4, 2019</div>
+              </div>
+              <div class="replies">Replies: 599k</div>
+            </div>
+          </div>
+          <div class="tredingcontent-baiviet">
+            <img src="anh.png" alt="" class="avt" />
+            <div class="tredingcontent-baiviet-noidung">
+              <a href="" class="tredingcontent-baiviet-tieude">
+                Thread '[CLB Chứng khoán] Chia sẻ kinh nghiệm đầu tư chứng khoán
+                2024 - K9 is ez'
+              </a>
+              <div class="tredingcontent-baiviet-tacgiadate">
+                <div class="tacgia">trumnh0kho</div>
+                <div class="date">Dec 4, 2019</div>
+              </div>
+              <div class="replies">Replies: 599k</div>
+            </div>
+          </div>
+        </div>
+        <div class="thread-statistics">
+          <h1 class="tredingcontent-tieude">Thread statistics</h1>
+          <h4>Created:</h4>
+          <div class="views">
+            <a href="#">sythanh3</a>
+            <h5>jun 25 2023</h5>
+          </div>
+          <h4>Last reply from:</h4>
+          <div class="views">
+            <a href="#">Te_Thien_Dai_thanh</a>
+            <h5>Today at: 6:69pm</h5>
+          </div>
+          <div class="views">
+            <h4>Replies:</h4>
+            <h5 class="thread-views">1,329</h5>
+          </div>
+          <div class="views">
+            <h4>Views:</h4>
+            <h5 class="thread-views">132,493</h5>
+          </div>
+        </div>
+        <div class="thread-statistics">
+          <h1 class="tredingcontent-tieude">Share this page</h1>
+          <div class="icon-sect">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="asset/js_file/posting.js"></script>
+  </body>
+</html>
